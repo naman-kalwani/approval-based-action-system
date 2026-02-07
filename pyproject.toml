@@ -1,0 +1,13 @@
+[project]
+name = "hitl-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain[openai]>=1.2.9",
+    "langgraph>=1.0.8",
+    "langgraph-checkpoint-mongodb>=0.3.1",
+    "pymongo>=4.15.5",
+    "python-dotenv>=1.2.1",
+]
